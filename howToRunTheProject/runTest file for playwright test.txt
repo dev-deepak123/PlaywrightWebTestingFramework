@@ -1,0 +1,10 @@
+1>for running the test ue the command npm test insted of npx playwright test
+2>if you want to run single test then in the playwright.confing file----> in testmatch[give test name]
+
+
+for allure report run following commannd
+npm install
+npm test
+npm isntall -D allure-commandline
+ npx allure generate ./my-allure-results --clean
+npx allure open ./allure-report
